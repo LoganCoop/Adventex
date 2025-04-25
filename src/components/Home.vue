@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
       <h1 class="title">Welcome to Adventex</h1>
-      <h2 class="subtitle">A collection of text adventure games with turn-based combat, inventory, and player health.</h2>
+      <h2 class="subtitle">A collection of text adventure games.</h2>
       <p>Select a game from the navigation bar to begin your adventure!</p>
       <div v-if="firstVisit" class="notification is-info mt-5">
         <button class="delete" @click="dismissWelcome"></button>
