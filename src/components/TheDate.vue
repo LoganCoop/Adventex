@@ -20,7 +20,7 @@
       <div v-else-if="step === 2">
         <p class="dos-text">You take a moment to gather your thoughts, then you reach out to her. She seems a bit surprised at first, but soon the conversation begins to flow. Do you...</p>
         <div class="dos-buttons">
-          <button class="dos-btn" @click="nextStep(3)">Compliment her beautiful smile</button>
+          <button class="dos-btn" @click="nextStep(3)">Ask her about School</button>
           <button class="dos-btn alt" @click="nextStep(4)">Ask about her day</button>
         </div>
       </div>
