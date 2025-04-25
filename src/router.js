@@ -12,7 +12,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/Adventex/'), // Set base for GitHub Pages
   routes,
 })
 
