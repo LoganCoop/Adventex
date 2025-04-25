@@ -20,12 +20,12 @@
       <div v-else-if="step === 2">
         <p class="dos-text">You take a moment to gather your thoughts, then you reach out to her. She seems a bit surprised at first, but soon the conversation begins to flow. Do you...</p>
         <div class="dos-buttons">
-          <button class="dos-btn" @click="nextStep(3)">Compliment her smile</button>
+          <button class="dos-btn" @click="nextStep(3)">Compliment her beautiful smile</button>
           <button class="dos-btn alt" @click="nextStep(4)">Ask about her day</button>
         </div>
       </div>
       <div v-else-if="step === 3">
-        <p class="dos-text">She begins to talk passionately about her major. She tells you she's going to be a teacher and...</p>
+        <p class="dos-text">She begins to talk passionately about her major. She tells you she's going to be a teacher and you feel the happiest you've ever been when listening to someone talk...</p>
         <div class="dos-buttons">
           <button class="dos-btn" @click="nextStep(5)">Ask her to be your girlfriend</button>
         </div>
@@ -34,6 +34,37 @@
         <p class="dos-text">She lights up, sharing her passions and interests. You find you have a lot in common. The date is going well, and you both decide to get dessert. Over dessert, you feel a special connection.</p>
         <div class="dos-buttons">
           <button class="dos-btn" @click="nextStep(5)">Ask her to be your girlfriend</button>
+        </div>
+      </div>
+      <!-- Blank steps for user to fill in -->
+      <div v-else-if="step === 6">
+        <p class="dos-text">[Step 6: Add your story here]</p>
+        <div class="dos-buttons">
+          <button class="dos-btn" @click="nextStep(7)">Next</button>
+        </div>
+      </div>
+      <div v-else-if="step === 7">
+        <p class="dos-text">[Step 7: Add your story here]</p>
+        <div class="dos-buttons">
+          <button class="dos-btn" @click="nextStep(8)">Next</button>
+        </div>
+      </div>
+      <div v-else-if="step === 8">
+        <p class="dos-text">[Step 8: Add your story here]</p>
+        <div class="dos-buttons">
+          <button class="dos-btn" @click="nextStep(9)">Next</button>
+        </div>
+      </div>
+      <div v-else-if="step === 9">
+        <p class="dos-text">[Step 9: Add your story here]</p>
+        <div class="dos-buttons">
+          <button class="dos-btn" @click="nextStep(10)">Next</button>
+        </div>
+      </div>
+      <div v-else-if="step === 10">
+        <p class="dos-text">[Step 10: Add your story here]</p>
+        <div class="dos-buttons">
+          <button class="dos-btn" @click="nextStep(5)">Go to Ending</button>
         </div>
       </div>
       <div v-else-if="step === 5">
