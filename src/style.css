@@ -1,0 +1,101 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background: linear-gradient(135deg, #e6f4ea 0%, #b7e4c7 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.section {
+  background: #f8fff8;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(60, 120, 60, 0.08);
+  padding: 2.5rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px 8px rgba(60, 120, 60, 0.07);
+  background: linear-gradient(90deg, #388e3c 0%, #81c784 100%);
+}
+
+.navbar .navbar-item, .navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.navbar .navbar-item.router-link-exact-active {
+  background: rgba(255,255,255,0.18);
+  border-radius: 8px;
+}
+
+.title {
+  color: #256029;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  color: #4e944f;
+  font-weight: 500;
+}
+
+.button, .navbar .navbar-item {
+  transition: background 0.2s, color 0.2s;
+}
+
+.button.is-link, .navbar .navbar-item.router-link-exact-active {
+  background: #388e3c !important;
+  color: #fff !important;
+}
+
+.button.is-link:hover, .navbar .navbar-item:hover {
+  background: #256029 !important;
+  color: #fff !important;
+}
+
+.container {
+  max-width: 700px;
+}
+
+.box {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(60, 120, 60, 0.07);
+}
+
+.notification.is-info {
+  background: linear-gradient(90deg, #e6f4ea 0%, #b7e4c7 100%);
+  color: #256029;
+  border-left: 5px solid #388e3c;
+}
+
+.notification.is-success {
+  background: linear-gradient(90deg, #d0f5e8 0%, #b7e4c7 100%);
+  color: #256029;
+  border-left: 5px solid #388e3c;
+}
