@@ -14,7 +14,7 @@
         <p class="dos-text">You reach out to her as soon as possible and you begin to correspond. The conversation flows easily. Do you...</p>
         <div class="dos-buttons">
           <button class="dos-btn" @click="nextStep(3)">Ask her about what she's been up to since high school</button>
-          <button class="dos-btn alt" @click="nextStep(4)">Ask about her favorite things</button>
+          <button class="dos-btn alt" @click="nextStep(4)">Ask about her day</button>
         </div>
       </div>
       <div v-else-if="step === 2">
